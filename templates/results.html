@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Page</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/results.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="weatherResults">
+    <h3>Weather in {{location}}</h3>
+    <h2>{{temp}}° C</h2>
+    <h3>{{weather}}</h3>
+    <h4>Feels like : {{feels_like}}° C</h4>
+</div>
+</body>
+</html>
